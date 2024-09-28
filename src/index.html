@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="shortcut icon" href="../logo.svg" type="image/x-icon">
+    <title>Desafio Domo</title>
+
+    <script src="https://kit.fontawesome.com/a6aa7b51e4.js" crossorigin="anonymous"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
+</head>
+<body>
+    
+    <div class="container-fluid w-100">
+        <!--Header-->
+        <header class="row">
+              
+                <nav
+                    class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
+                    <div class="container-fluid">
+                        <div class="spacing"></div>
+
+                        <!-- Logo-->
+                        <a class="navbar-brand" href="#">
+                            <iframe src="../logo.svg" frameborder="0"></iframe>
+                        </a>
+                        
+                        <!--Vertical Line-->
+                        <div class=" d-xl-flex vertical-line d-sm-none" style="height: 40px;">
+                            <div class="vr"></div>
+                        </div>
+
+                        <!-- Collapse Button in sm-->
+
+                        <button
+                            class="navbar-toggler d-xl-none"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavId"
+                            aria-controls="collapsibleNavId"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!--Items-->
+                        <div class="collapse  navbar-collapse" id="collapsibleNavId">
+                            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+
+                                <!--Home-->
+                                <li class="nav-item">
+                                    
+                                        <a class="nav-link active" href="#" aria-current="page"
+                                        ><b>Home</b>
+                                        <span class="visually-hidden">(current)</span></a
+                                    >
+                                    
+                                </li>
+                                
+                                <!--About-->
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#"><b>About</b></a>
+                                </li>
+                                <!--Pages DropDown-->
+                                
+                                <li class="nav-item">
+                                        <a
+                                            class=" nav-link dropdown"
+                                            type="button"
+                                            id="triggerId"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                        >
+                                           <b>Pages
+                                            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                                           </b>
+                                        </a>
+                                        <div
+                                            class="dropdown-menu dropdown-menu-start"
+                                            aria-labelledby="triggerId"
+                                        >
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Action</a>
+                                        </div>
+                                    
+                                </li>
+
+                                <!--Packages-->
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#"><b>Packages</b></a>
+                                </li>
+                                <!--Contact-->
+                                <li class="nav-item">
+                                    
+                                    <a class="nav-link" aria-current="page" href="#"><b>Contact</b></a>
+                                    
+                                    
+                                </li>
+                                <!--Cart[0]-->
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#"><b>Cart <span class="high">[</span> 0 <span class="high">]</span></b></a>
+                                </li>
+
+                               
+                            </ul>
+                           
+                            <div class="d-grid gap-2">
+                                <button
+                                    type="button"
+                                    name=""
+                                    id=""
+                                    class="btn consul-btn btn-outline-dark px-4 "
+                                    style="height: 3.5rem;"
+                                >
+                                <b>
+                                    Free Consultation
+                                    <i class="fa fa-arrow-right px-2" aria-hidden="true"></i>
+                                </b>
+                                    
+                                </button>
+                            </div>
+                            
+                                
+                           </div>
+                        </div>
+                    </div>
+                </nav>
+        </header>
+        <!--Content-->
+        <div class="row content row-cols-xxl-2 row-cols-xl-1 align-self-lg-center " >
+            <!--Message of joining-->
+            <div class="side1 ">
+                <div class="div button">
+                    <a
+                    name=""
+                    id=""
+                    class="btn btn-outline-light border-1 rounded-5 py-2"
+                    href="#"
+                    role="button"
+                    >
+                    <b>Welcome to Businezz X</b></a>
+                </div>
+
+
+                <!--Text 1-->
+                <div class="py-4 text">
+                    <h1>
+                        <b>
+                            Join us in growing your <span class="underline-text">business</span>.
+                        </b>
+                    </h1>
+                </div>
+
+                <div style="height: 13rem;"></div>
+
+                <!--Text 2-->
+                <div class="content-text-2" style="color: white ;">
+                    Elevate your business with BussinezzX, a profesional Webflow template.
+                </div>
+                
+                <!--Button Contact Us-->
+                <div class="contact-us-button">
+                    <a
+                    name=""
+                    id=""
+                    class="btn btn-primary rounded-5 px-4 py-3"
+                    href="#"
+                    role="button"
+                    ><b>Contact us</b>
+                    <i class="fa fa-arrow-right px-2" aria-hidden="true"></i>
+                    </a
+                >
+                </div>
+                
+
+            </div>
+            <!--Form-->
+            <div class="flex align-content-center side2 bg-primary">
+                <div class="bg-white p-5 m-5">
+
+                    <div class="my-3">
+                        <button
+                            type="button"
+                            class="btn consul-btn px-3"
+                        >
+                            <b>
+                                Book your free consultation
+                            </b>
+                        </button>
+                        
+                    </div>
+
+                    <h2 class="consultation ">
+                        <b>Get a free consultation</b>
+                    </h2>
+
+                    <!--Form-->
+                      <form id= "contact-form" class="row g-2 needs-validation" validate >
+                        <div class="col-sm-12 col-lg-6 form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            name="firstName"
+                            id="validationName"
+                            aria-describedby="invalid-feedback"
+                            placeholder="Name"
+                            required
+                          />
+                            <div class="invalid-tooltip">
+                                Please enter a valid name
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-12 col-lg-6">
+                          <input
+                            type="email"
+                            class="form-control col-sm-12 col-lg-6"
+                            name="email"
+                            id="validationEmail"
+                            aria-describedby="emailHelpId"
+                            placeholder="contact@email.com"
+                            required
+                          />
+                        </div>
+                        
+                        <div class="col-12">
+                          <textarea class="form-control" 
+                          type="text" 
+                          name="message" 
+                          id="validationArea" 
+                          rows="5"
+                          placeholder="Please type your message here..."
+                          required
+                          ></textarea>
+                        </div>
+                        
+                        <div class="col-12">
+                          <button
+                            type="submit"
+                            name="submitbutton"
+                            id="submitBtn"
+                            class=" submit-btn btn w-100 py-3 "
+                          >
+                            Get in touch
+                          </button>
+                        </div>
+                        
+                        
+
+                      </form>
+                </div>  
+            </div>
+
+        </div>
+
+        <footer class="row h-25 ">
+            <p class="flex-column text-center text-body-tertiary w-100 py-4">
+                Gonzalo Zuleta Yarad 2024
+            </p>
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+html, body{
+    font-family: Inter;
+}
+
+header{
+    height: 90px;
+    font-size: large;
+    background-color: white;
+    font-family: "Inter";
+}
+
+iframe{
+    height: 30px;
+    width: 4rem;
+}
+
+.nav-item:hover{
+    transform: scale(1.1);
+}
+.content{
+    height: fit-content;
+}
+.nav-item{
+    color: #092435;
+    transition: transform .3s;
+    padding-left: 1rem;
+}
+
+.nav-item > a.active , .high, .nav-link:hover{
+    color:#71818b !important
+}
+
+@media screen and (min-width:1199px) {
+    nav > div.container-fluid{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+}
+@media(max-width:1198px) {
+    li.nav-item{
+        border-bottom: 1px solid rgb(218, 218, 218);
+        margin-left: 5%;
+    }
+
+    div.spacing{
+        display: block;
+        width: 4.5rem;
+    }
+
+    div.vertical-line{
+        display: none;
+    }
+
+}
+.consul-btn{
+  font-size: large;
+  color: #36495C;
+  border: 2px #36495C solid;
+  border-radius: 25px;
+}
+
+.consul-btn:hover{
+    color: white;
+    background-color: #36495C;
+    border-radius: 25px;
+}
+
+
+.side1{
+
+    background: rgb(0,57,87);
+    background: radial-gradient(at bottom left,#03476b 0%, rgba(2,43,65,1) 38%); 
+    
+    padding: 10%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+
+.side2{
+    background-image: url("https://revistadearquitectura.com/wp-content/uploads/2017/12/Caracter%C3%ADsticas-de-las-oficinas-de-lujo_abraham_cababie_daniel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Inter;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+div.text > h1{
+    font-size: 65px;
+}
+
+div.content > div.side1{
+    color: white;
+}
+
+.contact-us-button{
+    padding-top: 3rem;
+}
+.contact-us-button > a{
+    background-color: white;
+    color: #092435;
+    font-size: larger;
+}
+
+.content-text-2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 26px;
+    border-top: 1px solid #07507e;
+    padding-top: 40px;
+}
+.underline-text{
+    border-bottom: 5px solid #048FF4;
+}
+.consultation{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.form-control[type=text],.form-control[type=email]{
+    font-weight: bolder;
+    color: #092435;
+    font-size: 16px;
+    padding: 20px;
+}
+
+button.submit-btn{
+    font-size: 23px;
+    border: 3px Solid;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    color: white;
+    background-color: #092435;
+
+}
